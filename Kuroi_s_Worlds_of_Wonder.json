@@ -1061,21 +1061,14 @@
     ],
     "item": [
         {
-            "name": "Two-Bladed Sword test",
-            "type": "M",
-            "weaponCategory": "martial",
-            "weight": 6,
-            "dmg1": "1d8",
-            "dmgType": "S",
-            "property": [
-                "H",
-                "2H"
-            ],
-            "rarity": "uncommon",
-            "value": 55000,
+            "name": "Corrupted Mythallar Shard",
+            "type": "OTH",
+            "weight": 1,
+            "rarity": "very rare",
+            "value": 535000,
             "source": "KuroisWorldsofWonder",
             "entries": [
-                "This sword has a blade extending from either end of its hilt. This weapon deals {@dice 1d8} damage. When you use the attack action on your turn to make a melee attack with this weapon, you can use a bonus action to make a melee attack with the second blade as if you were two weapon fighting."
+                "This shard was once part of a Mythallar that exploded into pieces. It still holds some of its power but time has corrupted it. When a creature in posession of the shard casts a spell of 1st level or higher roll on the {@table wild magic surge|phb} and target the creature with the effect."
             ]
         }
     ]
