@@ -1,0 +1,1062 @@
+{
+    "siteVersion": "1.131.2",
+    "_meta": {
+        "sources": [
+            {
+                "json": "KuroisWorldsofWonder",
+                "abbreviation": "KWW",
+                "full": "Kuroi's Worlds of Wonder",
+                "url": "",
+                "authors": [
+                    "kuroikyu"
+                ],
+                "convertedBy": [
+                    "kuroikyu"
+                ]
+            }
+        ],
+        "dateAdded": 1623537859,
+        "dateLastModified": 1623537859
+    },
+    "monster": [
+        {
+            "name": "Yeemik",
+            "shortName": true,
+            "isNpc": true,
+            "source": "KuroisWorldsofWonder",
+            "size": "S",
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "goblinoid"
+                ]
+            },
+            "alignment": [
+                "N",
+                "E"
+            ],
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "{@item leather armor|phb}",
+                        "{@item shield|phb}"
+                    ]
+                }
+            ],
+            "hp": {
+                "special": "12"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 8,
+            "dex": 14,
+            "con": 10,
+            "int": 10,
+            "wis": 8,
+            "cha": 8,
+            "skill": {
+                "stealth": "+6"
+            },
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 9,
+            "languages": [
+                "Common",
+                "Goblin"
+            ],
+            "cr": "1/4",
+            "trait": [
+                {
+                    "name": "Nimble Escape",
+                    "entries": [
+                        "The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Scimitar",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Shortbow",
+                    "entries": [
+                        "{@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+                    ]
+                }
+            ],
+            "environment": [
+                "forest",
+                "grassland",
+                "hill",
+                "underdark"
+            ],
+            "fluff": {
+                "name": "Goblin",
+                "source": "MM",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "entries": [
+                            {
+                                "type": "entries",
+                                "entries": [
+                                    "Goblins are small, black-hearted, selfish humanoids that lair in caves, abandoned mines, despoiled dungeons, and other dismal settings. Individually weak, goblins gather in large-sometimes overwhelming-numbers. They crave power and regularly abuse whatever authority they obtain.",
+                                    {
+                                        "name": "Goblinoids",
+                                        "type": "entries",
+                                        "entries": [
+                                            "Goblins belong to a family of creatures called goblinoids. Their larger cousins, hobgoblins and bugbears, like to bully goblins into submission. Goblins are lazy and undisciplined, making them poor servants, laborers, and guards."
+                                        ]
+                                    },
+                                    {
+                                        "name": "Malicious Glee",
+                                        "type": "entries",
+                                        "entries": [
+                                            "Motivated by greed and malice, goblins can't help but celebrate the few times they have the upper hand. They dance, caper with sheer joy when victory is theirs. Once their revels have ended, goblins delight in the torment of other creatures and embrace all manner of wickedness."
+                                        ]
+                                    },
+                                    {
+                                        "name": "Leaders and Followers",
+                                        "type": "entries",
+                                        "entries": [
+                                            "Goblins are ruled by the strongest or smartest among them. A goblin boss might command a single lair, while a goblin king or queen (who is nothing more than a glorified goblin boss) rules hundreds of goblins, spread out among multiple lairs to ensure the tribe's survival. Goblin bosses are easily ousted, and many goblin tribes are taken over by hobgoblin warlords or bugbear chiefs."
+                                        ]
+                                    },
+                                    {
+                                        "name": "Challenging Lairs",
+                                        "type": "entries",
+                                        "entries": [
+                                            "Goblins festoon their lairs with alarms designed to signal the arrival of intruders. Those lairs are also riddled with narrow tunnels and bolt-holes that human-sized creatures can't navigate, but which goblins can crawl through with ease, allowing them to flee or to circle around and surprise their enemies. Rat Keepers and Wolf Riders. Goblins have an affinity for rats and wolves, raising them to serve as companions and mounts, respectively. Like rats, goblins shun sunlight and sleep underground during the day. Like wolves, they are pack hunters, made bolder by their numbers. When they hunt from the backs of wolves, goblins use hit-and-run attacks."
+                                        ]
+                                    },
+                                    {
+                                        "name": "Worshipers of Maglubiyet",
+                                        "type": "entries",
+                                        "entries": [
+                                            "Maglubiyet the Mighty One, the Lord of Depths and Darkness, is the greater god of goblinoids. Envisioned by most goblins as an eleven-foot-tall battle-scarred goblin with black skin and fire erupting from his eyes, he is worshiped not out of adoration but fear. Goblins believe that when they die in battle, their spirits join the ranks of Maglubiyet's army on the plane of Acheron. This is a \"privilege\" that most goblins dread, fearing the Mighty One's eternal tyranny even more than death."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "internal",
+                            "path": "bestiary/MM/Goblin.jpg"
+                        }
+                    }
+                ]
+            },
+            "tokenUrl": "https://5e.tools/img/MM/Goblin.png?v=1.122.2",
+            "altArt": [
+                {
+                    "name": "Goblin",
+                    "source": "RMBRE"
+                }
+            ],
+            "senseTags": [
+                "D"
+            ],
+            "languageTags": [
+                "C",
+                "GO"
+            ],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RNG",
+                "RW"
+            ],
+            "hasFluff": true,
+            "hasFluffImages": true
+        },
+        {
+            "name": "Shadow of Yuloth",
+            "shortName": true,
+            "group": "La Zarza",
+            "isNpc": true,
+            "isNamedCreature": true,
+            "source": "KuroisWorldsofWonder",
+            "size": "M",
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    {
+                        "tag": "elf",
+                        "prefix": "shadar-kai"
+                    }
+                ]
+            },
+            "alignment": [
+                "L",
+                "NX",
+                "C",
+                "E"
+            ],
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "{@item studded leather armor|phb}"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "12d8 + 18",
+                "average": 72
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 11,
+            "dex": 19,
+            "con": 13,
+            "int": 13,
+            "wis": 11,
+            "cha": 16,
+            "save": {
+                "int": "+4",
+                "dex": "+7",
+                "cha": "+6"
+            },
+            "skill": {
+                "acrobatics": "+10",
+                "deception": "+6",
+                "perception": "+3",
+                "stealth": "+10"
+            },
+            "senses": [
+                "darkvision 120 ft."
+            ],
+            "passive": 13,
+            "resist": [
+                {
+                    "resist": [
+                        "necrotic"
+                    ]
+                },
+                {
+                    "resist": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from Nonmagical Attacks"
+                }
+            ],
+            "immune": [
+                "poison"
+            ],
+            "vulnerable": [
+                "radiant"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "grappled",
+                "poisoned",
+                "restrained"
+            ],
+            "languages": [
+                "Common",
+                "Elvish",
+                "Thieves' cant",
+                "Undercommon"
+            ],
+            "cr": "8",
+            "trait": [
+                {
+                    "name": "Assassinate",
+                    "entries": [
+                        "During its first turn, Shadow of Yuloth has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the assassin scores against a surprised creature is a critical hit."
+                    ]
+                },
+                {
+                    "name": "Evasion",
+                    "entries": [
+                        "If Shadow of Yuloth is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, Shadow of Yuloth instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+                    ]
+                },
+                {
+                    "name": "Sneak Attack (1/Turn)",
+                    "entries": [
+                        "Shadow of Yuloth deals an extra 14 ({@damage 4d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Shadow of Yuloth that isn't {@condition incapacitated} and the assassin doesn't have disadvantage on the attack roll."
+                    ]
+                },
+                {
+                    "name": "Shadow's Sight",
+                    "entries": [
+                        "Magical darkness doesn't impede Shadow of Yuloth's {@sense darkvision}"
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "Shadow of Yuloth makes three melee attacks, two ranged attacks, or one of each."
+                    ]
+                },
+                {
+                    "name": "Dark Blade",
+                    "entries": [
+                        "{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 60/60 ft., one target. {@h}8 ({@damage 1d8 + 4}) necrotic damage in melee, or 8 ({@damage 1d8 + 4}) necrotic damage at range."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "Shadow of Yuloth can take a bonus action on each of its turns to take the {@action Dash}, {@action Disengage}, or {@action Hide} action."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Vanish (Recharges after a Short or Long Rest)",
+                    "entries": [
+                        "When Shadow of Yuloth takes damage, it can teleport up to 60 feet to an unoccupied space it can see. Shadow of Yuloth is resistant to all damage until the start of its next turn or until it attacks or uses a villain action."
+                    ]
+                }
+            ],
+            "legendaryActions": 1,
+            "legendary": [
+                {
+                    "name": "Shadow's Embrace",
+                    "entries": [
+                        "During the first round of combat, Shadow of Yuloth calls forth the shadows to restrain up to five target creatures. Up to 4 targets it can see must succeed on a {@dc 15} Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check or become {@condition restrained} until the start of Shadow of Yuloth's next turn."
+                    ]
+                },
+                {
+                    "name": "Face the Darkness",
+                    "entries": [
+                        "At the start of the second turn of Shadow of Yuloth, the shadows that were restraining the targets become shadows. The shadows share initiative with Shadow of Yuloth, taking their turn after it."
+                    ]
+                },
+                {
+                    "name": "One with the Shadows",
+                    "entries": [
+                        "During the third round of combat, Shadow of Yuloth casts {@spell darkness} centered on itself and at another location within the spell's range. Both spells share the same concentration. Shadow of Yuloth can teleport itself from one darkness to the other as a free action once per turn."
+                    ]
+                }
+            ],
+            "environment": [
+                "urban"
+            ],
+            "fluff": {
+                "entries": [
+                    {
+                        "type": "entries",
+                        "entries": [
+                            {
+                                "type": "entries",
+                                "entries": [
+                                    "Master of shadows, Shadow of Yuloth is an unseen assassin that helms the Bramble -a guild of thieves and assassins among other things. Shadow of Yuloth is one of the three Thorns, the leaders of the Bramble in Neverwinter."
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17687/27/1000/1000/637566231519545415.jpeg"
+                        }
+                    }
+                ]
+            },
+            "traitTags": [
+                "Sneak Attack"
+            ],
+            "senseTags": [
+                "SD"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C",
+                "E",
+                "TC",
+                "U"
+            ],
+            "damageTags": [
+                "N"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "hasFluff": true
+        },
+        {
+            "name": "Etienne 'Et Poison' Moff",
+            "shortName": true,
+            "alias": [
+                "Et Poison"
+            ],
+            "group": "La Zarza",
+            "isNpc": true,
+            "isNamedCreature": true,
+            "source": "KuroisWorldsofWonder",
+            "size": "M",
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "human"
+                ]
+            },
+            "alignment": [
+                "L",
+                "NX",
+                "C",
+                "E"
+            ],
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "{@item breastplate|phb}"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "12d8 + 34",
+                "average": 88
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 13,
+            "dex": 19,
+            "con": 16,
+            "int": 17,
+            "wis": 14,
+            "cha": 10,
+            "save": {
+                "int": "+6",
+                "dex": "+7"
+            },
+            "skill": {
+                "acrobatics": "+10",
+                "deception": "+3",
+                "perception": "+5",
+                "stealth": "+10"
+            },
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 15,
+            "immune": [
+                "poison"
+            ],
+            "vulnerable": [],
+            "conditionImmune": [
+                "poisoned"
+            ],
+            "languages": [
+                "Common",
+                "Elvish",
+                "Thieves' cant"
+            ],
+            "cr": "8",
+            "trait": [
+                {
+                    "name": "Assassinate",
+                    "entries": [
+                        "During its first turn, 'Et Poison' has advantage on attack rolls against any creature that hasn't taken a turn. Any hit 'Et Poison' scores against a surprised creature is a critical hit."
+                    ]
+                },
+                {
+                    "name": "Evasion",
+                    "entries": [
+                        "If 'Et Poison' is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, 'Et Poison' instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+                    ]
+                },
+                {
+                    "name": "Sneak Attack (1/Turn)",
+                    "entries": [
+                        "Once per turn, 'Et Poison' deals an extra 10 (roll {@dice 3d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of 'Et Poison' that isn't {@condition incapacitated} and 'Et Poison' doesn't have disadvantage on the attack roll."
+                    ]
+                },
+                {
+                    "name": "Googles of Night",
+                    "entries": [
+                        "'Et Poison' wears {@item goggles of night} giving it {@sense darkvision} out to a range of 60 feet."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "'Et Poison' makes two dagger attacks, two throwing knife attacks, or one of each."
+                    ]
+                },
+                {
+                    "name": "Poisoned Dagger",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d4 + 9}) piercing damage, and the target must make a {@dc 14} Constitution saving throw, taking 13 ({@damage 3d8}) poison damage on a failed save, or half as much damage on a successful one."
+                    ]
+                },
+                {
+                    "name": "Poisoned Throwing Knife",
+                    "entries": [
+                        "{@atk rw} {@hit 7} to hit, range 60/60 ft., one target. {@h}10 ({@damage 1d4 + 8}) piercing damage, and the target must make a {@dc 14} Constitution saving throw, taking 13 ({@damage 3d8}) poison damage on a failed save, or half as much damage on a successful one."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "'Et Poison' can take a bonus action on each of its turns to take the {@action Dash}, {@action Disengage}, or {@action Hide} action."
+                    ]
+                },
+                {
+                    "name": "Poison Dip",
+                    "entries": [
+                        "'Et Poison' dips a dagger o throwing knife in one on the multiple {@condition poisoned} sheathes it wears. The poison damage on the next weapon attack is replaced with the effects of the {@item Drow Poison}."
+                    ]
+                }
+            ],
+            "legendaryActions": 1,
+            "legendary": [
+                {
+                    "name": "Poison Bomb",
+                    "entries": [
+                        "During the first round of combat, \"Et Poison\" will throw a poison bomb to affect the greatest number of targets. Range 60 ft., 15-foot-radius sphere. {@h}Any creatures in the area must succeed on a {@dc 14} Constitution saving throw or take 4 ({@damage 1d8}) poison damage and become {@condition poisoned} until the end of \"Et Poison\"'s next turn."
+                    ]
+                },
+                {
+                    "name": "Say hello to my little friends",
+                    "entries": [
+                        "During the second round of combat, \"Et Poison\" will release up to two (DMs discretion) {@creature swarm of poisonous snakes}. Each swarm shares initiative with \"Et Poison\", but taking the turn after it."
+                    ]
+                },
+                {
+                    "name": "Toxic Defense",
+                    "entries": [
+                        "During the third round of combat, \"Et Poison\" will release a small poisonous cloud around him the next time he gets hit by an attack that lasts until the start of its next turn. Any creatures within 5 feet of \"Et Poison\" must make a {@dc 14} Constitution saving throw, taking 13 ({@damage 3d8}) poison damage and be {@condition blinded} until the end of their next turn on a failed save, or half as much damage on a successful one."
+                    ]
+                }
+            ],
+            "environment": [
+                "urban"
+            ],
+            "fluff": {
+                "entries": [
+                    {
+                        "type": "entries",
+                        "entries": [
+                            {
+                                "type": "entries",
+                                "entries": [
+                                    "Master of poisons, Etienne 'Et Poison' Moff is a remorseless killer that helms the Bramble -a guild of thieves and assassins among other things. \"Et Poison\" is one of the three Thorns, the leaders of the Bramble in Neverwinter."
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "traitTags": [
+                "Sneak Attack"
+            ],
+            "senseTags": [
+                "D"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C",
+                "E",
+                "TC"
+            ],
+            "damageTags": [
+                "I",
+                "P"
+            ],
+            "miscTags": [
+                "AOE",
+                "MW",
+                "RW"
+            ],
+            "conditionInflict": [
+                "poisoned"
+            ],
+            "hasFluff": true
+        },
+        {
+            "name": "Forest Fennec Fox",
+            "source": "KuroisWorldsofWonder",
+            "size": "T",
+            "type": "beast",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                11
+            ],
+            "hp": {
+                "average": 7,
+                "formula": "2d4 + 2"
+            },
+            "speed": {
+                "burrow": 5,
+                "walk": 40
+            },
+            "str": 6,
+            "dex": 12,
+            "con": 12,
+            "int": 2,
+            "wis": 14,
+            "cha": 10,
+            "skill": {
+                "stealth": "+3"
+            },
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 12,
+            "cr": "1/8",
+            "trait": [
+                {
+                    "name": "Keen Hearing and Sight",
+                    "entries": [
+                        "The fennec fox has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit +3} to hit, reach 5 ft., one target. {@h}2 piercing damage."
+                    ]
+                }
+            ],
+            "environment": [
+                "forest",
+                "mountain",
+                "underdark"
+            ],
+            "fluff": {
+                "entries": [
+                    {
+                        "type": "entries",
+                        "entries": [
+                            {
+                                "type": "entries",
+                                "entries": [
+                                    "Fennec foxes are tiny canids that make their homes in the shallow parts of the Underworld and the deserts of the Southlands. Their huge semi-erect ears and wide eyes give them a disarmingly friendly appearance."
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/wzkVQi1.png"
+                        }
+                    }
+                ]
+            },
+            "familiar": true,
+            "tokenUrl": "https://i.imgur.com/xu3RSI4.png",
+            "traitTags": [
+                "Keen Senses"
+            ],
+            "senseTags": [
+                "D"
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW"
+            ]
+        },
+        {
+            "name": "Danyas Thorngage",
+            "shortName": true,
+            "group": "La Zarza",
+            "isNpc": true,
+            "isNamedCreature": true,
+            "source": "KuroisWorldsofWonder",
+            "size": "S",
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    {
+                        "tag": "halfling",
+                        "prefix": "stout"
+                    }
+                ]
+            },
+            "alignment": [
+                "L",
+                "E"
+            ],
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "{@item studded leather armor|phb}"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "5d8 + 10",
+                "average": 36
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 8,
+            "dex": 17,
+            "con": 15,
+            "int": 10,
+            "wis": 12,
+            "cha": 14,
+            "save": {
+                "int": "+3",
+                "dex": "+6"
+            },
+            "skill": {
+                "acrobatics": "+9",
+                "deception": "+5",
+                "perception": "+4",
+                "stealth": "+9",
+                "survival": "+4"
+            },
+            "passive": 14,
+            "resist": [
+                "poison"
+            ],
+            "languages": [
+                "Common",
+                "Halfling",
+                "Thieves' cant"
+            ],
+            "cr": "5",
+            "trait": [
+                {
+                    "name": "Evasion",
+                    "entries": [
+                        "If Danyas is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, Danyas instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+                    ]
+                },
+                {
+                    "name": "Sneak Attack (1/Turn)",
+                    "entries": [
+                        "Danyas deals an extra 10 ({@damage 3d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Danyas that isn't {@condition incapacitated} and Danyas doesn't have disadvantage on the attack roll."
+                    ]
+                },
+                {
+                    "name": "Mask of Many Faces",
+                    "entries": [
+                        "Danyas can cast disguise self at will, without expending a spell slot."
+                    ]
+                },
+                {
+                    "name": "Spellcasting",
+                    "entries": [
+                        "Danyas' spellcasting ability is Charisma (spell save {@dc 13}, {@hit 3} to hit with spell attacks). Danyas has the following warlock spells prepared:",
+                        "Cantrips (at will): {@spell booming blade|tce}, {@spell mage hand}.",
+                        "1st level (1 slot): {@spell arms of hadar}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "Danyas makes two dagger attacks, or one dagger attack and one hand crossbow attack."
+                    ]
+                },
+                {
+                    "name": "Dagger",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Hand Crossbow",
+                    "entries": [
+                        "{@atk rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Shortbow",
+                    "entries": [
+                        "{@atk rw} {@hit 6} to hit, range 80/320 ft., one target. {@h}12 ({@damage 1d8 + 8}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "Danyas can take a bonus action on each turn to take {@action Dash}, {@action Disengage}, or {@action Hide} action."
+                    ]
+                },
+                {
+                    "name": "Steady Aim",
+                    "entries": [
+                        "Danyas gives itself advantage on its next attack on the current turn. Danyas can use this bonus action only if it hasn't moved during this turn, and after Danyas uses the bonus action, its speed is 0 until the end of the current turn."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Skirmisher",
+                    "entries": [
+                        "Danyas can move up to half its speed as a reaction when an enemy ends their turn within 5ft. of Danyas without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Uncanny Dodge",
+                    "entries": [
+                        "When an attacker that Danyas can see hits it with an attack, Danyas can use its reaction to halve the attack's damage against it."
+                    ]
+                }
+            ],
+            "environment": [
+                "urban"
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17637/848/1000/1000/637564156614211209.jpeg"
+                        }
+                    }
+                ]
+            },
+            "tokenUrl": "https://www.dndbeyond.com/avatars/18273/765/1581111423-50175378.jpeg",
+            "traitTags": [
+                "Sneak Attack"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C",
+                "H",
+                "TC"
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RNG",
+                "RW"
+            ],
+            "hasFluff": true
+        },
+        {
+            "name": "Ollin Blackwood",
+            "shortName": true,
+            "group": "La Zarza",
+            "isNpc": true,
+            "isNamedCreature": true,
+            "source": "KuroisWorldsofWonder",
+            "size": "M",
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "human"
+                ]
+            },
+            "alignment": [
+                "C",
+                "E"
+            ],
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "{@item leather armor|phb}"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "9d8 + 27",
+                "average": 67
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 13,
+            "dex": 18,
+            "con": 16,
+            "int": 14,
+            "wis": 14,
+            "cha": 16,
+            "save": {
+                "dex": "+7",
+                "int": "+5"
+            },
+            "skill": {
+                "acrobatics": "+10",
+                "deception": "+6",
+                "perception": "+8",
+                "stealth": "+10",
+                "insight": "+8",
+                "survival": "+5",
+                "religion": "+5",
+                "investigation": "+5"
+            },
+            "passive": 18,
+            "languages": [
+                "Common",
+                "Dwarvish",
+                "Thieves' cant"
+            ],
+            "cr": "6",
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries": [
+                        "Ollin is a 3th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). Ollin has the following bard spells prepared:"
+                    ],
+                    "spells": {
+                        "0": {
+                            "spells": [
+                                "{@spell message}",
+                                "{@spell vicious mockery}"
+                            ]
+                        },
+                        "1": {
+                            "spells": [
+                                "{@spell disguise self}",
+                                "{@spell dissonant whispers}",
+                                "{@spell sleep}",
+                                "{@spell Tasha's hideous laughter}"
+                            ],
+                            "slots": 4
+                        },
+                        "2": {
+                            "spells": [
+                                "{@spell crown of madness}",
+                                "{@spell invisibility}",
+                                "{@spell phantasmal force}",
+                                "{@spell suggestion}"
+                            ],
+                            "slots": 2
+                        }
+                    },
+                    "daily": {
+                        "1e": [
+                            "{@spell disguise self}",
+                            "{@spell invisibility}"
+                        ]
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Sneak Attack (1/Turn)",
+                    "entries": [
+                        "Ollin deals an extra 10 ({@damage 3d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Ollin that isn't {@condition incapacitated} and Ollin doesn't have disadvantage on the attack roll."
+                    ]
+                },
+                {
+                    "name": "Psychic Blades {@recharge 5}",
+                    "entries": [
+                        "When Ollin hits a creature with a weapon attack, it can choose to deal an extra 7 ({@damage 2d6}) psychic damage to that target."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "Ollin makes two melee attacks."
+                    ]
+                },
+                {
+                    "name": "Shortsword",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Dagger",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "Ollin can take a bonus action on each of its turns to take the {@action Dash}, {@action Disengage}, or {@action Hide} action."
+                    ]
+                },
+                {
+                    "name": "Insightful Fighting",
+                    "entries": [
+                        "Ollin can make an {@skill Insight} check against a creature it can see that isn't {@condition incapacitated}, contested by the target's {@skill Deception} check. On a success, Ollin can use its Sneak Attack even if it doesn't have advantage on the attack roll, but not if Ollin has disadvantage on it for 1 minute or until Ollin uses this feature against a different target."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Uncanny Dodge",
+                    "entries": [
+                        "When an attacker that Ollin can see hits Ollin with an attack, Ollin can use its reaction to halve the attack’s damage."
+                    ]
+                }
+            ],
+            "tokenUrl": "https://5e.tools/img/MM/Assassin.png?v=1.131.2",
+            "traitTags": [
+                "Sneak Attack"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C",
+                "D",
+                "TC"
+            ],
+            "damageTags": [
+                "P",
+                "Y"
+            ],
+            "spellcastingTags": [
+                "CB"
+            ],
+            "miscTags": [
+                "MW"
+            ],
+            "hasFluff": true
+        }
+    ]
+}
