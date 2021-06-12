@@ -1062,11 +1062,11 @@
     "item": [
         {
             "name": "Corrupted Mythallar Shard",
-            "type": "OTH",
+            "source": "KuroisWorldsofWonder",
+            "wondrous": true,
             "weight": 1,
             "rarity": "very rare",
             "value": 535000,
-            "source": "KuroisWorldsofWonder",
             "entries": [
                 "This shard was once part of a Mythallar that exploded into pieces. It still holds some of its power but time has corrupted it. When a creature in posession of the shard casts a spell of 1st level or higher roll on the {@table wild magic surge|phb} and target the creature with the effect."
             ]
