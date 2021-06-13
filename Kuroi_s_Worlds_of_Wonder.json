@@ -1070,7 +1070,7 @@
             "value": 535000,
             "entries": [
                 "Once per turn, after a spell of 1st level or higher is cast whithin 5 feet of the Corrupted Mythallar Shard, roll on the {@table Wild Magic Surge|phb} table to create a magic effect. If it normally requires concentration, it doesn't require concentration in this case; the spell lasts for its full duration.",
-                "While attuned to it, only your spells trigger the magic effect from the {@table Wild Magic Surge|phb} table. In addition, whenever you cast a spell of 1st level or higher roll a {@roll d20}, on an even result your spell is cast one level higher if the spell permits it, otherwise it is cast as usual."
+                "While attuned to it, only your spells trigger the magic effect from the {@table Wild Magic Surge|phb} table. In addition, whenever you cast a spell of 1st level or higher roll a {@dice d20}. On an even result, your spell is cast one level higher if the spell permits it, otherwise it is cast as usual."
             ]
         },
         {
